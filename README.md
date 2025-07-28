@@ -78,3 +78,10 @@ python ping.py
 
 ## 📁 Project Structure
 
+```
+📦 Root Directory
+├── ping-application-python/
+│   └── ping.py            # Main ICMP Ping script
+├── LICENSE.md             # Creative Commons license file (outside the folder)
+└── README.md              # Project documentation (outside the folder)
+```
