@@ -26,7 +26,7 @@ This application replicates the core functionality of the `ping` command by cons
 ## 🎥 Video Demonstration
 
 Watch how it works in real-time:  
-👉 [Video Demo – Python Ping Application](https://youtu.be/YOUR_VIDEO_LINK_HERE) <!-- Replace with your actual YouTube link -->
+👉 [Video Demo – Python Ping Application](https://youtu.be/03eXKgsISiM?si=DI5meqN5Oqwm7roc) <!-- Replace with your actual YouTube link -->
 
 ---
 
