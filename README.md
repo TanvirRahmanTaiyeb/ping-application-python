@@ -85,3 +85,10 @@ python ping.py
 ├── LICENSE.md             # Creative Commons license file (outside the folder)
 └── README.md              # Project documentation (outside the folder)
 ```
+
+## 📄 License
+
+This project is licensed under the [CC BY-NC-ND 4.0 License](LICENSE.md).
+
+> Please do not use this project for commercial or academic submission purposes.
+
