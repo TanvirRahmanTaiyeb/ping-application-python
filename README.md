@@ -11,27 +11,30 @@
 
 ## 📘 Project Overview
 
-This is a raw socket-based ICMP Ping tool written in Python.  
-It replicates the fundamental behavior of the native `ping` command by crafting and sending ICMP Echo Request packets and interpreting the replies.
+This is a raw socket-based ICMP Ping tool developed in Python.
 
-This project is designed to help understand low-level network programming concepts and how the Internet Control Message Protocol works under the hood.
+It replicates the core behavior of the native `ping` command by manually crafting ICMP Echo Request packets and parsing ICMP Echo Replies, giving you low-level control and visibility into how networking protocols operate.
+
+This project is especially useful for:
+- 🔐 Cybersecurity students learning about network reconnaissance and packet inspection.
+- 🌐 Networking learners interested in understanding the ICMP protocol, TTL, latency, and diagnostic utilities.
 
 ---
 
 ## 🚀 Key Features
 
 - 🧮 Manual construction of ICMP Echo Request packets
-- 🔁 Checksum validation for data integrity
-- 📥 ICMP Echo Reply parsing with round-trip time (RTT)
-- ⏱️ Time-to-Live (TTL) calculation
-- ⚙️ Cross-platform (Windows/Linux – requires admin/root privileges)
-- 📚 Great for educational and network diagnostics purposes
+- 🔁 Checksum validation for ICMP integrity
+- 📥 Parsing of ICMP Echo Replies (incl. RTT and TTL)
+- ⏱️ Real-time round-trip time (RTT) calculation
+- ⚙️ Cross-platform (Windows/Linux with admin/root access)
+- 👨‍💻 Educational tool for learning protocol-level internals
 
 ---
 
 ## 🎥 Live Demonstration
 
-Watch the tool in action:  
+Watch the tool in action on YouTube:  
 🎬 [Video Demo – Python Ping Application](https://youtu.be/03eXKgsISiM?si=DI5meqN5Oqwm7roc)
 
 ---
@@ -60,7 +63,18 @@ Watch the tool in action:
 
 ## ⚙️ How to Run
 
-> **Important:** This script requires **elevated privileges** (Admin on Windows / root on Linux) to send raw ICMP packets.
+> **Note:** This tool uses raw sockets, which require **administrator/root privileges**.
+
+### 🧪 Steps
 
 ```bash
+# Linux or macOS (use sudo)
 sudo python ping.py
+
+# Windows (run your terminal as Administrator)
+python ping.py
+
+```
+
+## 📁 Project Structure
+
